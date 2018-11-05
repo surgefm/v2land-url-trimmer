@@ -5,9 +5,13 @@ function weiboUrlTrimmer(url) {
   removeAllQueriesExcept(url, 'id');
   removeHash(url);
   useHttps(url);
-  if (['ttarticle', 'article'].includes(getPathname(url)[0])) {
+  const pathname = getPathname(url);
+  if (['ttarticle', 'article'].includes(pathname[0])) {
     url.host = 'www.weibo.com';
     url = setPathname(url, ['ttarticle', 'p', 'show']);
+  } else if (['ttwenda', 'wenda'].includes(pathname[0])) {
+    url.host = 'www.weibo.com';
+    url = setPathname(url, ['ttwenda', 'p', 'show']);
   }
 
   return url;
