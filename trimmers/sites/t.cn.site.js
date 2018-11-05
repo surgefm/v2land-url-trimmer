@@ -6,6 +6,6 @@ async function TcnURLTrimmer(url) {
 }
 
 module.exports = {
-  domains: ['media.weibo.cn'],
+  domains: ['t.cn'],
   trimmer: TcnURLTrimmer,
 };

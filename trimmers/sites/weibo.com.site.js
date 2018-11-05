@@ -4,7 +4,7 @@ const mediaWeiboTrimmer = require('./media.weibo.cn.site').trimmer;
 
 function weiboUrlTrimmer(url) {
   const pathname = getPathname(url);
-  if (pathname[0] === 'ttarticle') {
+  if (['ttarticle', 'ttwenda'].includes(pathname[0])) {
     return mediaWeiboTrimmer(url);
   }
   removeHash(url);
