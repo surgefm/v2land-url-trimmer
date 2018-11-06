@@ -1,4 +1,11 @@
 {
+  "name": "v2land-url-trimmer",
+  "description": "Trim the URLs so that URLs refer to the same resourse look the same.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/v2land/v2land-url-trimmer.git"
+  },
+  "version": "0.0.1",
   "dependencies": {
     "lodash": "^4.17.11",
     "superagent": "^4.0.0-beta.5"

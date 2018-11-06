@@ -1,8 +1,20 @@
 const agent = require('superagent');
 async function TcnURLTrimmer(url) {
   const topTrimmer = require('../../index.js');
-  const callback = await agent.get(url.toString());
-  return topTrimmer(callback.redirects[0]);
+  let found;
+  try {
+    await agent.get(url.toString()).redirects(false);
+  } catch (err) {
+    if (err.status === 302) {
+      found = true;
+      const realUrl = err.response.header.location;
+      return topTrimmer(realUrl);
+    }
+  } finally {
+    if (!found) {
+      return url;
+    }
+  }
 }
 
 module.exports = {
