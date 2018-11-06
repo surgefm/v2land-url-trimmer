@@ -14,7 +14,7 @@ const board = {
   'sports2_bbs': 'sports',
 };
 
-async function mobileWeiboUrlTrimmer(url) {
+async function mobileNeteaseUrlTrimmer(url) {
   removeAllQueries(url);
   removeHash(url);
   useHttps(url);
@@ -40,6 +40,6 @@ async function mobileWeiboUrlTrimmer(url) {
 }
 
 module.exports = {
-  trimmer: mobileWeiboUrlTrimmer,
+  trimmer: mobileNeteaseUrlTrimmer,
   domains: ['c.m.163.com'],
 };

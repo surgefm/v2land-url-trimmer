@@ -7,7 +7,7 @@ async function urlTrimmer(inputUrl) {
     url = await siteTrimmers[url.hostname](url);
   } else if (url.hostname.slice(0, 4) === 'www.' &&
     siteTrimmers[url.hostname.slice(4)]) {
-    url = await siteTrimmers[url.hostname](url);
+    url = await siteTrimmers[url.hostname.slice(4)](url);
   }
 
   return url.toString();
