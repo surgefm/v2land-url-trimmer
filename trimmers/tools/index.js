@@ -1,4 +1,5 @@
 module.exports = {
+  removeQueries: require('./removeQueries'),
   removeAllQueries: require('./removeAllQueries'),
   removeAllQueriesExcept: require('./removeAllQueriesExcept'),
   removeHash: require('./removeHash'),
