@@ -15,7 +15,7 @@ function removeAllQueriesExcept(url, keys = []) {
 
   url.searchParams.forEach((value, name) => {
     if (!keys.includes(name)) {
-      url.searchParams.remove(name);
+      url.searchParams.delete(name);
     }
   });
 

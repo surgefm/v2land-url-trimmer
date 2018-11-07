@@ -1,4 +1,4 @@
-const { removeAllQueries, removeHash, removeTrailingSlash, useHttp } = require('../tools');
+const { removeAllQueries, removeHash, removeTrailingSlash, useHttps } = require('../tools');
 const agent = require('superagent');
 const { URL } = require('url');
 
@@ -14,7 +14,7 @@ async function iFengNewsUrlTrimmer(url) {
     }
     url = new URL(realUrl);
   }
-  useHttp(url);
+  useHttps(url);
   removeHash(url);
   removeAllQueries(url);
   removeTrailingSlash(url);
@@ -33,5 +33,6 @@ module.exports = {
     'games.ifeng.com',
     'v.ifeng.com',
     'inews.ifeng.com',
+    'wemedia.ifeng.com',
   ],
 };
