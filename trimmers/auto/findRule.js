@@ -44,7 +44,6 @@ async function findRule(url, rules) {
 
   const original$ = cheerio.load(originalWebpage.text);
   const originalTitle = original$('title')[0].children[0].data;
-  
   let lastUrl = new URL(url);
   try {
     if (!url.searchParams) {
