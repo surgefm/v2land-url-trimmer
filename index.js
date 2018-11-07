@@ -1,6 +1,6 @@
 const { URL } = require('url');
 const siteTrimmers = require('./trimmers');
-const { removeHash } = require('./trimmers/tools');
+const autoTrimmer = require('./trimmers/auto');
 
 async function urlTrimmer(inputUrl) {
   let url = new URL(inputUrl);
@@ -10,10 +10,12 @@ async function urlTrimmer(inputUrl) {
     siteTrimmers[url.hostname.slice(4)]) {
     url = await siteTrimmers[url.hostname.slice(4)](url);
   } else {
-    removeHash(url);
+    url = await autoTrimmer(url);
   }
 
-  return url.toString();
+  return url;
 }
 
-module.exports = urlTrimmer;
+module.exports = {
+  trim: urlTrimmer,
+};

@@ -2,15 +2,18 @@ const fs = require('fs');
 const fsPromises = fs.promises;
 const path = require('path');
 const rulePaths = fs.readdirSync(path.resolve(__dirname, './rules'));
-const ruleFinder = require('./ruleFinder');
-const { getPathname } = require('../utils');
+const findRule = require('./findRule');
+const getFilename = require('./getFilename');
+const parseRule = require('./parseRule');
 
 async function autoTrimmer(url) {
-  const { host, pathname } = url;
-  const filename = `${host}.${pathname.join('-')}.rule`;
+  const filename = getFilename(url);
   if (rulePaths.includes(filename)) {
-    const rule = await fsPromises.readFile(path.resolve(__dirname, 'rules', filename));
-    console.log(rule);
+    let rule = await fsPromises.readFile(path.resolve(__dirname, 'rules', filename));
+    rule = parseRule(rule);
+    return findRule(url, rule);
+  } else {
+    return findRule(url);
   }
 }
 
