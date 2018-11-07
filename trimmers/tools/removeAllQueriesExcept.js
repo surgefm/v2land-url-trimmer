@@ -13,11 +13,16 @@ function removeAllQueriesExcept(url, keys = []) {
     return removeAllQueries(url);
   }
 
-  url.searchParams.forEach((value, name) => {
+  const names = [];
+  for (const key of url.searchParams.keys()) {
+    names.push(key);
+  }
+
+  for (const name of names) {
     if (!keys.includes(name)) {
       url.searchParams.delete(name);
     }
-  });
+  };
 
   return url;
 }
