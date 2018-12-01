@@ -9,5 +9,6 @@ module.exports = {
   "https://ishare.iclient.ifeng.com/xvotr/news/shareNews?fromType=vampire&forward=1&aid=sub_85871982&ch=CJ33NEW_DOWN&token=_MGZzMmYlJmNzYWNjVmM4EGM1MGNlFWMiFjYlNWZwIGO&aman=cdx3cbceb6j3f5hce2E8a0e5c48ea1Gb1bLeceR0b8": "https://wemedia.ifeng.com/85871982/wemedia.shtml",
   "http://facebook.com.cn": "http://facebook.com.cn/",
   "https://new.qq.com/cmsn/20181201/20181201001095.html": "https://new.qq.com/omn/20181201001095",
-  "https://view.inews.qq.com/a/20181201001095?uid=#": "https://new.qq.com/omn/20181201001095"
+  "https://view.inews.qq.com/a/20181201001095?uid=#": "https://new.qq.com/omn/20181201001095",
+  "https://cn.nytimes.com/world/20181130/china-trump-cyberespionage/zh-hant/?_ga=2.213552144.58897170.1543650432-713175062.1447870460": "https://cn.nytimes.com/world/20181130/china-trump-cyberespionage/zh-hant/"
 };
