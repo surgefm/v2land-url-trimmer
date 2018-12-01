@@ -8,4 +8,6 @@ module.exports = {
   "https://ishare.iclient.ifeng.com/shareNews?forward=1&aid=cmpp_030010060147781&ch=SYLB10_TOP&aman=cdM3cbLeb6V3f5gce2k8a0B5c4Sea1gb1bvece80b8": "https://news.ifeng.com/a/20181106/60147781_0.shtml",
   "https://ishare.iclient.ifeng.com/xvotr/news/shareNews?fromType=vampire&forward=1&aid=sub_85871982&ch=CJ33NEW_DOWN&token=_MGZzMmYlJmNzYWNjVmM4EGM1MGNlFWMiFjYlNWZwIGO&aman=cdx3cbceb6j3f5hce2E8a0e5c48ea1Gb1bLeceR0b8": "https://wemedia.ifeng.com/85871982/wemedia.shtml",
   "http://facebook.com.cn": "http://facebook.com.cn/",
+  "https://new.qq.com/cmsn/20181201/20181201001095.html": "https://new.qq.com/omn/20181201001095",
+  "https://view.inews.qq.com/a/20181201001095?uid=#": "https://new.qq.com/omn/20181201001095"
 };
