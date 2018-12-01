@@ -10,5 +10,6 @@ module.exports = {
   'http://facebook.com.cn': 'http://facebook.com.cn/',
   'https://new.qq.com/cmsn/20181201/20181201001095.html': 'https://new.qq.com/omn/20181201001095',
   'https://view.inews.qq.com/a/20181201001095?uid=#': 'https://new.qq.com/omn/20181201001095',
-  'https://cn.nytimes.com/world/20181130/china-trump-cyberespionage/zh-hant/?_ga=2.213552144.58897170.1543650432-713175062.1447870460': 'https://cn.nytimes.com/world/20181130/china-trump-cyberespionage/zh-hant/'
+  'https://cn.nytimes.com/world/20181130/china-trump-cyberespionage/zh-hant/?_ga=2.213552144.58897170.1543650432-713175062.1447870460': 'https://cn.nytimes.com/world/20181130/china-trump-cyberespionage/zh-hant/',
+  'https://www.bbc.com/zhongwen/trad/chinese-news-46410149?from=singlemessage&isappinstalled=0': 'https://www.bbc.com/zhongwen/trad/chinese-news-46410149'
 };
