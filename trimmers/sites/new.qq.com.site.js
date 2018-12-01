@@ -9,8 +9,8 @@ async function tencentNewsUrlTrimmer(url) {
   useHttps(url);
   const pathname = getPathname(url);
 
-  lastPath = pathname[pathname.length - 1].replace('.html', '')
-  return new URL(`https://new.qq.com/omn/${lastPath}`)
+  const lastPath = pathname[pathname.length - 1].replace('.html', '');
+  return new URL(`https://new.qq.com/omn/${lastPath}`);
 }
 
 module.exports = {

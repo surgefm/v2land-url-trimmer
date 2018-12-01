@@ -22,7 +22,7 @@ function removeAllQueriesExcept(url, keys = []) {
     if (!keys.includes(name)) {
       url.searchParams.delete(name);
     }
-  };
+  }
 
   return url;
 }

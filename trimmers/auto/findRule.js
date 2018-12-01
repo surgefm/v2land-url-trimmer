@@ -4,7 +4,6 @@ const agent = require('superagent');
 const cheerio = require('cheerio');
 const checkSamePage = require('./checkSamePage');
 const saveRule = require('./saveRule');
-const parseRule = require('./parseRule');
 const applyRules = require('./applyRules');
 
 async function findRule(url, rules) {

@@ -14,5 +14,8 @@
     "mocha": "^5.2.0",
     "superagent": "^4.0.0-beta.5",
     "validator": "^10.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
   }
 }

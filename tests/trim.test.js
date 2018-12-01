@@ -1,6 +1,9 @@
 const testcases = require('./testcases');
 const trimmer = require('../index');
 const expect = require('expect');
+const mocha = require('mocha');
+const describe = mocha.describe;
+const it = mocha.it;
 
 describe('Test URL trimmer', async function() {
   for (const testcase of Object.keys(testcases)) {
