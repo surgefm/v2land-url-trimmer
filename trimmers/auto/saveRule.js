@@ -13,7 +13,7 @@ async function saveRule(url, ruleMethodList, ruleQueryRemoveList, ruleQueryPrese
   for (const query of ruleQueryPreserveList) {
     str += `query:preserve:${query}\n`;
   }
-  
+
   await fs.writeFile(path.resolve(__dirname, 'rules', getFilename(url)), str);
 }
 

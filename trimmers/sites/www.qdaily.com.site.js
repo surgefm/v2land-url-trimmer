@@ -1,6 +1,6 @@
 const { removeAllQueries, removeHash, useHttps } = require('../tools');
 
-async function qdailyTrimmer (url) {
+async function qdailyTrimmer(url) {
   useHttps(url);
   removeHash(url);
   removeAllQueries(url);
@@ -10,5 +10,5 @@ async function qdailyTrimmer (url) {
 
 module.exports = {
   trimmer: qdailyTrimmer,
-  domains: ['www.qdaily.com']
+  domains: ['www.qdaily.com'],
 };

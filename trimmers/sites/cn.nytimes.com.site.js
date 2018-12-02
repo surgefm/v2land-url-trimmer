@@ -1,6 +1,6 @@
 const { removeAllQueries, removeHash, useHttps } = require('../tools');
 
-async function cnNewYorkTimesTrimmer (url) {
+async function cnNewYorkTimesTrimmer(url) {
   useHttps(url);
   removeHash(url);
   removeAllQueries(url);

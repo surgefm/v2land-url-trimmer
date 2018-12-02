@@ -1,6 +1,6 @@
 const { removeAllQueries, removeHash, useHttps } = require('../tools');
 
-async function bbcTrimmer (url) {
+async function bbcTrimmer(url) {
   useHttps(url);
   removeHash(url);
   removeAllQueries(url);

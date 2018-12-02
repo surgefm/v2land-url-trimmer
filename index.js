@@ -16,7 +16,7 @@ async function urlTrimmer(inputUrl) {
   } catch (err) {
     return new URL(inputUrl);
   }
-  
+
   return url;
 }
 

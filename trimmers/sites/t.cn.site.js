@@ -11,10 +11,10 @@ async function TcnURLTrimmer(url) {
       const realUrl = err.response.header.location;
       return topTrimmer(realUrl);
     }
-  } finally {
-    if (!found) {
-      return url;
-    }
+  }
+
+  if (!found) {
+    return url;
   }
 }
 

@@ -78,13 +78,15 @@ async function findRule(url, rules) {
       }
     }
     lastUrl = new URL(url);
-  } catch (err) {}
-  finally {
-    if (changed) {
-      await saveRule(lastUrl, ruleMethodList, ruleQueryRemoveList, ruleQueryPreserveList);
-    }
-    return lastUrl;
+  } catch (err) {
+    // Do nothing.
   }
+
+  if (changed) {
+    await saveRule(lastUrl, ruleMethodList, ruleQueryRemoveList, ruleQueryPreserveList);
+  }
+
+  return lastUrl;
 }
 
 function checkIfGoodToGo(url, ruleQueryPreserveList) {

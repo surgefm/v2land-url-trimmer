@@ -1,32 +1,14 @@
 {
-    "env": {
-        "node": true
-    },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "ecmaVersion": 2017,
-        "sourceType": "module"
-    },
-    "rules": {
-        "indent": [
-            "error",
-            2
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "single",
-            {"allowTemplateLiterals": true}
-        ],
-        "semi": [
-            "error",
-            "always"
-        ],
-        "no-unsafe-finally": 1,
-        "no-empty": 1,
-        "no-console": 0
-    }
+  "extends": [
+    "eslint:recommended",
+    "v2land"
+  ],
+  "parser": "babel-eslint",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "no-useless-escape": 0,
+    "require-jsdoc": 0
+  }
 }

@@ -5,9 +5,14 @@
     "type": "git",
     "url": "https://github.com/v2land/v2land-url-trimmer.git"
   },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ."
+  },
   "version": "0.0.7",
   "dependencies": {
+    "babel-eslint": "^10.0.1",
     "cheerio": "^1.0.0-rc.2",
+    "eslint-config-v2land": "^1.0.4",
     "expect": "^23.6.0",
     "js-combinatorics": "^0.5.3",
     "lodash": "^4.17.11",

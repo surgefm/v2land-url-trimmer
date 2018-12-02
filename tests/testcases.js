@@ -15,5 +15,5 @@ module.exports = {
   'https://m.qdaily.com/mobile/articles/58869.html': 'https://www.qdaily.com/articles/58869.html',
   'https://www.qdaily.com/articles/58869.html?q=1': 'https://www.qdaily.com/articles/58869.html',
   'http://www.infzm.com/wap/#/content/142084': 'http://www.infzm.com/content/142084',
-  'http://www.infzm.com/content/142084?q=1': 'http://www.infzm.com/content/142084'
+  'http://www.infzm.com/content/142084?q=1': 'http://www.infzm.com/content/142084',
 };
