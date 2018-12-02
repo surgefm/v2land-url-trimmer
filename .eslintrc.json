@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "v2land"
+  ],
+  "parser": "babel-eslint",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "no-useless-escape": 0,
+    "require-jsdoc": 0
+  }
+}

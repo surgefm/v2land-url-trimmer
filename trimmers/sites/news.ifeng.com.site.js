@@ -9,7 +9,7 @@ async function iFengNewsUrlTrimmer(url) {
     const text = response.text;
     let index = text.indexOf('"docUrl": ') + 11;
     let realUrl = '';
-    while(text[index] !== '"') {
+    while (text[index] !== '"') {
       realUrl += text[index++];
     }
     url = new URL(realUrl);

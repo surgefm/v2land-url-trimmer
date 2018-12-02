@@ -6,7 +6,7 @@ function removeQueries(url, keys = []) {
   if (!url.searchParams) {
     return url;
   }
-  
+
   for (const key of keys) {
     url.searchParams.delete(key);
   }

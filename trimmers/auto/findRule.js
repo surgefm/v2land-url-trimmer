@@ -4,7 +4,6 @@ const agent = require('superagent');
 const cheerio = require('cheerio');
 const checkSamePage = require('./checkSamePage');
 const saveRule = require('./saveRule');
-const parseRule = require('./parseRule');
 const applyRules = require('./applyRules');
 
 async function findRule(url, rules) {
@@ -79,13 +78,15 @@ async function findRule(url, rules) {
       }
     }
     lastUrl = new URL(url);
-  } catch (err) {}
-  finally {
-    if (changed) {
-      await saveRule(lastUrl, ruleMethodList, ruleQueryRemoveList, ruleQueryPreserveList);
-    }
-    return lastUrl;
+  } catch (err) {
+    // Do nothing.
   }
+
+  if (changed) {
+    await saveRule(lastUrl, ruleMethodList, ruleQueryRemoveList, ruleQueryPreserveList);
+  }
+
+  return lastUrl;
 }
 
 function checkIfGoodToGo(url, ruleQueryPreserveList) {
