@@ -18,4 +18,5 @@ module.exports = {
   'https://www.qdaily.com/articles/58869.html?q=1': 'https://www.qdaily.com/articles/58869.html',
   'http://www.infzm.com/wap/#/content/142084': 'http://www.infzm.com/content/142084',
   'http://www.infzm.com/content/142084?q=1': 'http://www.infzm.com/content/142084',
+  'http://mobile.twitter.com/IncredibLink/status/933911741754494976?from=singlemessage&isappinstalled=0': 'https://twitter.com/IncredibLink/status/933911741754494976',
 };
