@@ -18,4 +18,8 @@ module.exports = {
   'https://www.qdaily.com/articles/58869.html?q=1': 'https://www.qdaily.com/articles/58869.html',
   'http://www.infzm.com/wap/#/content/142084': 'http://www.infzm.com/content/142084',
   'http://www.infzm.com/content/142084?q=1': 'http://www.infzm.com/content/142084',
+  'https://www.oeeee.com/html/201811/29/719647.html': 'http://www.oeeee.com/html/201811/29/719647.html',
+  'https://legal.people.com.cn/n1/2018/1130/c42510-30435302.html': 'http://legal.people.com.cn/n1/2018/1130/c42510-30435302.html',
+  'http://m.mp.oeeee.com/a/BAAFRD000020181128119759.html': 'https://m.mp.oeeee.com/a/BAAFRD000020181128119759.html',
+  'http://3g.oeeee.com/m.php?s=/m/mshow/ctime/1543736898/id/720612/type/html/mtype/1': 'http://www.oeeee.com/html/201812/02/720612.html',
 };
