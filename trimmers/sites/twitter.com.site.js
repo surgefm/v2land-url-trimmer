@@ -1,6 +1,6 @@
 const { removeAllQueries, removeHash, removeTrailingSlash, useHttps } = require('../tools');
 
-function theInitiumUrlTrimmer(url) {
+function twitterUrlTrimmer(url) {
   removeHash(url);
   useHttps(url);
   removeAllQueries(url);
@@ -11,6 +11,6 @@ function theInitiumUrlTrimmer(url) {
 }
 
 module.exports = {
-  trimmer: theInitiumUrlTrimmer,
+  trimmer: twitterUrlTrimmer,
   domains: ['twitter.com', 'www.twitter.com', 'mobile.twitter.com'],
 };
