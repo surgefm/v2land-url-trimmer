@@ -20,4 +20,7 @@ module.exports = {
   'http://www.infzm.com/content/142084?q=1': 'http://www.infzm.com/content/142084',
   'https://www.nfpeople.com/article/8826#header?q=1': 'http://www.nfpeople.com/article/8826',
   'http://mobile.twitter.com/IncredibLink/status/933911741754494976?from=singlemessage&isappinstalled=0': 'https://twitter.com/IncredibLink/status/933911741754494976',
+  'https://shareapp.cyol.com/cmsfile/cms_json/zqzx/Newspaper/2/2018-12-04/Content/nw.D110000zgqnb_20181204_1-01.html': 'http://zqb.cyol.com/html/2018-12/04/nw.D110000zgqnb_20181204_1-01.htm',
+  'http://news.cyol.com/node_65534.htm?para1=News&para2=201812&para3=04&urlId=159947': 'https://shareapp.cyol.com/cmsfile/News/201812/04/share159947.html',
+  'http://news.cyol.com/content/2018-12/04/content_17840472.htm': 'http://news.cyol.com/content/2018-12/04/content_17840472.htm',
 };
