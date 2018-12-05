@@ -3,6 +3,7 @@ const { getPathname } = require('../utils');
 const agent = require('superagent');
 const cheerio = require('cheerio');
 const { URL } = require('url');
+const { userAgent } = require('../../config');
 
 const board = {
   'news_gov_bbs': 'gov',
@@ -18,7 +19,7 @@ async function mobileNeteaseUrlTrimmer(url) {
   removeHash(url);
   useHttps(url);
   const pathname = getPathname(url);
-  const response = await agent.get(url.toString());
+  const response = await agent.get(url.toString()).set('user-agent', userAgent);
   const $ = cheerio.load(response.text);
   const boardId = $('html').attr('data-boardid');
 

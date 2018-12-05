@@ -4,6 +4,7 @@ const agent = require('superagent');
 const cheerio = require('cheerio');
 const iFengNewsUrlTrimmer = require('./news.ifeng.com.site').trimmer;
 const { URL } = require('url');
+const { userAgent } = require('../../config');
 const validator = require('validator');
 
 async function mobileIFengUrlTrimmer(url) {
@@ -13,7 +14,7 @@ async function mobileIFengUrlTrimmer(url) {
   const pathname = getPathname(url);
   if (pathname.length) {
     if (pathname[0] === 'shareNews') {
-      const response = await agent.get(url.toString());
+      const response = await agent.get(url.toString()).set('user-agent', userAgent);
       const text = response.text;
       let index = text.indexOf(`commentsUrl = '`);
       if (index) {
@@ -32,7 +33,7 @@ async function mobileIFengUrlTrimmer(url) {
       date = date.split('/').join('');
       const uid = url.searchParams.get('aid').slice(-8);
       const realUrl = `https://news.ifeng.com/a/${date}/${uid}_0.shtml`;
-      const test = await agent.get(realUrl.toString());
+      const test = await agent.get(realUrl.toString()).set('user-agent', userAgent);
       const test$ = cheerio.load(test.text);
       if (test$('title')[0].children[0].data.includes($('title')[0].children[0].data)) {
         return iFengNewsUrlTrimmer(new URL(realUrl));
