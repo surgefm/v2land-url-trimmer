@@ -1,4 +1,4 @@
-const { removeAllQueries, removeHash, useHttps } = require('../tools');
+const { removeAllQueries, removeHash, useHttps } = require('../../tools');
 
 async function qdailyTrimmer(url) {
   useHttps(url);

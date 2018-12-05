@@ -1,4 +1,4 @@
-const { removeAllQueriesExcept, removeHash, removeTrailingSlash, useHttps } = require('../tools');
+const { removeAllQueriesExcept, removeHash, removeTrailingSlash, useHttps } = require('../../tools');
 
 function youtubeUrlTrimmer(url) {
   removeHash(url);
