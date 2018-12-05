@@ -22,4 +22,5 @@ module.exports = {
   'http://mobile.twitter.com/IncredibLink/status/933911741754494976?from=singlemessage&isappinstalled=0': 'https://twitter.com/IncredibLink/status/933911741754494976',
   'https://m.thepaper.cn/newsDetail_forward_2704657': 'https://www.thepaper.cn/newsDetail_forward_2704657',
   'http://t.cn/EyVXVGM': 'https://www.sohu.com/a/279595364_100103081',
+  'http://www.sohu.com/a/279693771_267106?code=9c670f314015f5bc42e6ae293d39ab8c&_f=index_chan08cpc_0': 'https://www.sohu.com/a/279693771_267106',
 };
