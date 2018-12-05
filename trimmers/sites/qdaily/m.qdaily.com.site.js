@@ -1,5 +1,5 @@
-const { removeAllQueries, removeHash, useHttps } = require('../tools');
-const { getPathname } = require('../utils');
+const { removeAllQueries, removeHash, useHttps } = require('../../tools');
+const { getPathname } = require('../../utils');
 const { URL } = require('url');
 
 async function mqdailyTrimmer(url) {

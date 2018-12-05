@@ -1,5 +1,5 @@
-const { removeAllQueriesExcept, removeHash, useHttps } = require('../tools');
-const { getPathname, setPathname } = require('../utils');
+const { removeAllQueriesExcept, removeHash, useHttps } = require('../../tools');
+const { getPathname, setPathname } = require('../../utils');
 
 function weiboUrlTrimmer(url) {
   removeAllQueriesExcept(url, 'id');

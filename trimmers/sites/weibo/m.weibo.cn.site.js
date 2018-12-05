@@ -1,5 +1,5 @@
-const { removeAllQueries, removeHash, useHttps } = require('../tools');
-const { getPathname, setPathname } = require('../utils');
+const { removeAllQueries, removeHash, useHttps } = require('../../tools');
+const { getPathname, setPathname } = require('../../utils');
 const _ = require('lodash');
 
 function mobileWeiboUrlTrimmer(url) {
