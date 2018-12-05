@@ -1,4 +1,4 @@
-const { removeAllQueries, useHttp } = require('../tools');
+const { removeAllQueries, useHttp } = require('../../tools');
 const { URL } = require('url');
 
 async function infzmTrimmer(url) {

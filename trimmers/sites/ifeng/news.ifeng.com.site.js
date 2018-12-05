@@ -1,4 +1,4 @@
-const { removeAllQueries, removeHash, removeTrailingSlash, useHttps } = require('../tools');
+const { removeAllQueries, removeHash, removeTrailingSlash, useHttps } = require('../../tools');
 const agent = require('superagent');
 const { URL } = require('url');
 
