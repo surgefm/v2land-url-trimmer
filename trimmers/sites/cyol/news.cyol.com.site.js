@@ -8,6 +8,7 @@ async function cyolNewsUrlTrimmer(url) {
   const date = searchParams.get('para3');
   const uid = searchParams.get('urlId');
   if (!(type && month && date && uid)) {
+    url.host = 'news.cyol.com';
     return url;
   }
 
@@ -18,5 +19,5 @@ async function cyolNewsUrlTrimmer(url) {
 
 module.exports = {
   trimmer: cyolNewsUrlTrimmer,
-  domains: ['news.cyol.com'],
+  domains: ['news.cyol.com', 'm.cyol.com'],
 };
