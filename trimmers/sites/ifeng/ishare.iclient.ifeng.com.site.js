@@ -1,5 +1,5 @@
-const { removeAllQueriesExcept, removeHash, useHttps } = require('../tools');
-const { getPathname } = require('../utils');
+const { removeAllQueriesExcept, removeHash, useHttps } = require('../../tools');
+const { getPathname } = require('../../utils');
 const agent = require('superagent');
 const cheerio = require('cheerio');
 const iFengNewsUrlTrimmer = require('./news.ifeng.com.site').trimmer;

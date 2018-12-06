@@ -1,5 +1,5 @@
-const { removeAllQueries, removeHash, removeTrailingSlash, useHttps } = require('../tools');
-const { getPathname } = require('../utils');
+const { removeAllQueries, removeHash, removeTrailingSlash, useHttps } = require('../../tools');
+const { getPathname } = require('../../utils');
 const mediaWeiboTrimmer = require('./media.weibo.cn.site').trimmer;
 
 function weiboUrlTrimmer(url) {

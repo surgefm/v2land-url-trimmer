@@ -1,4 +1,4 @@
-const { removeAllQueries, removeHash, removeTrailingSlash, useHttp } = require('../tools');
+const { removeAllQueries, removeHash, removeTrailingSlash, useHttp } = require('../../tools');
 
 function xinhuaUrlTrimmer(url) {
   removeHash(url);
