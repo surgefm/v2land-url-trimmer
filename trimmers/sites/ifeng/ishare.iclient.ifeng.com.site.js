@@ -4,7 +4,7 @@ const agent = require('superagent');
 const cheerio = require('cheerio');
 const iFengNewsUrlTrimmer = require('./news.ifeng.com.site').trimmer;
 const { URL } = require('url');
-const { userAgent } = require('../../config');
+const { userAgent } = require('../../../config');
 const validator = require('validator');
 
 async function mobileIFengUrlTrimmer(url) {

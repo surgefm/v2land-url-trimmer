@@ -3,7 +3,7 @@ const { getPathname } = require('../../utils');
 const agent = require('superagent');
 const cheerio = require('cheerio');
 const { URL } = require('url');
-const { userAgent } = require('../../config');
+const { userAgent } = require('../../../config');
 
 const board = {
   'news_gov_bbs': 'gov',

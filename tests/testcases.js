@@ -23,4 +23,5 @@ module.exports = {
   'https://m.thepaper.cn/newsDetail_forward_2704657': 'https://www.thepaper.cn/newsDetail_forward_2704657',
   'http://t.cn/EyVXVGM': 'https://www.sohu.com/a/279595364_100103081',
   'http://www.sohu.com/a/279693771_267106?code=9c670f314015f5bc42e6ae293d39ab8c&_f=index_chan08cpc_0': 'https://www.sohu.com/a/279693771_267106',
+  'http://ss.sohu.com/infonews/article/6476223060968996870/0/bdd6f94c35dc2f6f3a336cb6988c5668?utm_medium=ss_ios&channel=998': 'https://ss.sohu.com/infonews/article/6476223060968996870',
 };

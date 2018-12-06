@@ -1,7 +1,7 @@
 const { removeAllQueries, removeHash, removeTrailingSlash, useHttps } = require('../../tools');
 const agent = require('superagent');
 const { URL } = require('url');
-const { userAgent } = require('../../config');
+const { userAgent } = require('../../../config');
 
 async function iFengNewsUrlTrimmer(url) {
   // Get desktop url
