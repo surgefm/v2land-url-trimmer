@@ -1,4 +1,4 @@
-const { removeAllQueries, removeHash, useHttp } = require('../tools');
+const { removeAllQueries, removeHash, useHttp } = require('../../tools');
 async function peopleNewsTrimmer(url) {
   useHttp(url);
   removeHash(url);

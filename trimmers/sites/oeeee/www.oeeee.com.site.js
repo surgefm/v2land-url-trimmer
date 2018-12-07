@@ -1,4 +1,4 @@
-const { removeAllQueries, removeHash, useHttp, useHttps } = require('../tools');
+const { removeAllQueries, removeHash, useHttp, useHttps } = require('../../tools');
 async function oeeeeTrimmer(url) {
   if (url.host === 'm.mp.oeeee.com') {
     useHttps(url);
