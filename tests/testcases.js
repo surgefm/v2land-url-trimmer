@@ -24,4 +24,9 @@ module.exports = {
   'http://t.cn/EyVXVGM': 'https://www.sohu.com/a/279595364_100103081',
   'http://www.sohu.com/a/279693771_267106?code=9c670f314015f5bc42e6ae293d39ab8c&_f=index_chan08cpc_0': 'https://www.sohu.com/a/279693771_267106',
   'http://ss.sohu.com/infonews/article/6476223060968996870/0/bdd6f94c35dc2f6f3a336cb6988c5668?utm_medium=ss_ios&channel=998': 'https://ss.sohu.com/infonews/article/6476223060968996870',
+  'https://shareapp.cyol.com/cmsfile/cms_json/zqzx/Newspaper/2/2018-12-04/Content/nw.D110000zgqnb_20181204_1-01.html': 'http://zqb.cyol.com/html/2018-12/04/nw.D110000zgqnb_20181204_1-01.htm',
+  'http://news.cyol.com/node_65534.htm?para1=News&para2=201812&para3=04&urlId=159947': 'https://shareapp.cyol.com/cmsfile/News/201812/04/share159947.html',
+  'http://news.cyol.com/content/2018-12/04/content_17840472.htm': 'http://news.cyol.com/content/2018-12/04/content_17840472.htm',
+  'http://m.cyol.com/content/2018-12/06/content_17843191.htm': 'http://news.cyol.com/content/2018-12/06/content_17843191.htm',
+  'https://mzqb.cyol.com/html/2018-12/05/content_259457.htm?': 'http://mzqb.cyol.com/html/2018-12/05/content_259457.htm',
 };
