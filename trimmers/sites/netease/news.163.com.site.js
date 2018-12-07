@@ -1,4 +1,4 @@
-const { removeAllQueries, removeHash, removeTrailingSlash, useHttps, useHttp } = require('../tools');
+const { removeAllQueries, removeHash, removeTrailingSlash, useHttps, useHttp } = require('../../tools');
 
 function neteaseNewsUrlTrimmer(url) {
   if (url.host === 'news.163.com') {

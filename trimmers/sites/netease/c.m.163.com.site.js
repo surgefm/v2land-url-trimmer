@@ -1,5 +1,5 @@
-const { removeAllQueries, removeHash, useHttps } = require('../tools');
-const { getPathname } = require('../utils');
+const { removeAllQueries, removeHash, useHttps } = require('../../tools');
+const { getPathname } = require('../../utils');
 const agent = require('superagent');
 const cheerio = require('cheerio');
 const { URL } = require('url');

@@ -1,5 +1,5 @@
-const { removeQueries, removeAllQueries, removeHash, useHttps } = require('../tools');
-const { getPathname } = require('../utils');
+const { removeQueries, removeAllQueries, removeHash, useHttps } = require('../../tools');
+const { getPathname } = require('../../utils');
 
 function mediaPlatformWeixinUrlTrimmer(url) {
   removeHash(url);
