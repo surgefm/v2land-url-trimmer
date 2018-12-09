@@ -1,5 +1,6 @@
 const { removeHash, removeTrailingSlash, useHttp, useHttps } = require('../tools');
 const { URL } = require('url');
+const { userAgent } = require('../../config');
 const agent = require('superagent');
 const cheerio = require('cheerio');
 const checkSamePage = require('./checkSamePage');
@@ -20,12 +21,12 @@ async function findRule(url, rules) {
     ruleMethodList = ['removeHash', 'removeTrailingSlash'];
     try {
       useHttps(url);
-      originalWebpage = await agent.get(url.toString());
+      originalWebpage = await agent.get(url.toString()).set('user-agent', userAgent);
       ruleMethodList.push('useHttps');
     } catch (err) {
       try {
         useHttp(url);
-        originalWebpage = await agent.get(url.toString());
+        originalWebpage = await agent.get(url.toString()).set('user-agent', userAgent);
         ruleMethodList.push('useHttp');
       } catch (err) {
         return url;
@@ -38,7 +39,7 @@ async function findRule(url, rules) {
     if (checkIfGoodToGo(url, ruleQueryPreserveList)) {
       return url;
     }
-    originalWebpage = await agent.get(url.toString());
+    originalWebpage = await agent.get(url.toString()).set('user-agent', userAgent);
   }
 
   const original$ = cheerio.load(originalWebpage.text);
