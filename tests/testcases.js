@@ -29,4 +29,8 @@ module.exports = {
   'http://news.cyol.com/content/2018-12/04/content_17840472.htm': 'http://news.cyol.com/content/2018-12/04/content_17840472.htm',
   'http://m.cyol.com/content/2018-12/06/content_17843191.htm': 'http://news.cyol.com/content/2018-12/06/content_17843191.htm',
   'https://mzqb.cyol.com/html/2018-12/05/content_259457.htm?': 'http://mzqb.cyol.com/html/2018-12/05/content_259457.htm',
+  'http://bbs.chinadaily.com.cn/forum.php?mod=viewthread&tid=1901613&urlId=159947': 'https://bbs.chinadaily.com.cn/forum.php?mod=viewthread&tid=1901613',
+  'https://bbs.chinadaily.com.cn/forum.php?mod=announcement&id=49#49': 'https://bbs.chinadaily.com.cn/forum.php?mod=announcement&id=49',
+  'http://enapp.chinadaily.com.cn/a/201812/08/AP5c0b0310a31047554287421d.html?shareapp=IOS': 'https://enapp.chinadaily.com.cn/a/201812/08/AP5c0b0310a31047554287421d.html',
+  'https://www.chinadaily.com.cn/a/201812/08/WS5c0ad735a310eff30328fd24.html': 'http://www.chinadaily.com.cn/a/201812/08/WS5c0ad735a310eff30328fd24.html',
 };

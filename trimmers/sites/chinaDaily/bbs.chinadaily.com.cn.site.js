@@ -3,7 +3,7 @@ const { removeAllQueriesExcept, removeHash, removeTrailingSlash, useHttps } = re
 function chinaDailyBBSUrlTrimmer(url) {
   removeHash(url);
   useHttps(url);
-  removeAllQueriesExcept(url, ['mod', 'tid', 'gid', 'fid', 'uid']);
+  removeAllQueriesExcept(url, ['mod', 'tid', 'gid', 'fid', 'uid', 'id']);
   removeTrailingSlash(url);
   return url;
 }
