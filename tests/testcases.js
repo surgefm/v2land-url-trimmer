@@ -46,6 +46,8 @@ module.exports = {
   'http://www.caixinglobal.com/2018-12-08/china-export-growth-slows-to-8-month-low-in-november-on-trade-war-impact-101357262.html?cxw=IOS&Sfrom=more': 'https://www.caixinglobal.com/2018-12-08/china-export-growth-slows-to-8-month-low-in-november-on-trade-war-impact-101357262.html',
   'http://big5.ftchinese.com/story/001080585/en?ccode=LanguageSwitch': 'https://www.ftchinese.com/story/001080585',
   'https://lifeweek.com.cn/2018/1129/51384.shtml': 'http://www.lifeweek.com.cn/2018/1129/51384.shtml',
+  'https://www.jfdaily.com/wx/detail.do?id=117169': 'https://www.jfdaily.com/news/detail?id=117169',
+  'https://web.shobserver.com/wx/detail.do?id=120923&time=1544367743757': 'https://www.jfdaily.com/news/detail?id=120923',
   'http://beltandroad.zaobao.com/beltandroad/news/story20181208-914207?p=1': 'https://beltandroad.zaobao.com/beltandroad/news/story20181208-914207',
   'http://www.zaobao.com/zentertainment/celebs/story20181209-914450?p=1': 'https://www.zaobao.com/zentertainment/celebs/story20181209-914450',
   'https://www.zaobao.com.sg/realtime/singapore/story20181209-914487': 'https://www.zaobao.com.sg/realtime/singapore/story20181209-914487',
