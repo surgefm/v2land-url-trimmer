@@ -46,4 +46,5 @@ module.exports = {
   'http://www.caixinglobal.com/2018-12-08/china-export-growth-slows-to-8-month-low-in-november-on-trade-war-impact-101357262.html?cxw=IOS&Sfrom=more': 'https://www.caixinglobal.com/2018-12-08/china-export-growth-slows-to-8-month-low-in-november-on-trade-war-impact-101357262.html',
   'http://big5.ftchinese.com/story/001080585/en?ccode=LanguageSwitch': 'https://www.ftchinese.com/story/001080585',
   'https://lifeweek.com.cn/2018/1129/51384.shtml': 'http://www.lifeweek.com.cn/2018/1129/51384.shtml',
+  'http://www.guancha.cn/military-affairs/2018_12_08_482596.shtml?p=1': 'https://www.guancha.cn/military-affairs/2018_12_08_482596.shtml',
 };
