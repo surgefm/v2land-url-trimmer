@@ -48,4 +48,5 @@ module.exports = {
   'https://lifeweek.com.cn/2018/1129/51384.shtml': 'http://www.lifeweek.com.cn/2018/1129/51384.shtml',
   'http://www.guancha.cn/military-affairs/2018_12_08_482596.shtml?p=1': 'https://www.guancha.cn/military-affairs/2018_12_08_482596.shtml',
   'https://user.guancha.cn/main/content?id=60506&s=fwzxfbbt': 'https://user.guancha.cn/main/content?id=60506',
+  'https://m.guancha.cn/internation/2018_12_09_482693.shtml': 'https://www.guancha.cn/internation/2018_12_09_482693.shtml',
 };
