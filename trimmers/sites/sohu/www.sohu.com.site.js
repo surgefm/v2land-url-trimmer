@@ -11,5 +11,5 @@ function sohuNewsUrlTrimmer(url) {
 
 module.exports = {
   trimmer: sohuNewsUrlTrimmer,
-  domains: ['www.sohu.com'],
+  domains: ['www.sohu.com', 'm.sohu.com'],
 };
