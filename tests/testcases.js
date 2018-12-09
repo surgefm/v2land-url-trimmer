@@ -53,4 +53,6 @@ module.exports = {
   'http://shfda.eastday.com/eastday/n952776/n953193/u1ai12051777.html?p=1': 'https://shfda.eastday.com/eastday/n952776/n953193/u1ai12051777.html',
   'http://jiazhuang.eastday.com/eastday/jiazhuang/zxzx/u1a8194245.html?p=1': 'https://jiazhuang.eastday.com/eastday/jiazhuang/zxzx/u1a8194245.html',
   'https://usa.eastday.com/know/edu/u1ai27065_K14.html?p=1': 'http://usa.eastday.com/know/edu/u1ai27065_K14.html',
+  'http://www.chinanews.com/auto/2018/12-07/8694782.shtml': 'https://www.chinanews.com/auto/2018/12-07/8694782.shtml',
+  'http://www.chinanews.com/wap/detail/zw/auto/2018/12-07/8694782.shtml': 'https://www.chinanews.com/auto/2018/12-07/8694782.shtml',
 };
