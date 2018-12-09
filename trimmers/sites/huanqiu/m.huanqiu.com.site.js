@@ -2,7 +2,8 @@ const { removeAllQueries, removeHash, removeTrailingSlash, useHttps } = require(
 const { getPathname, setPathname } = require('../../utils');
 const huanqiuUrlTrimmer = require('./www.huanqiu.com.site');
 const agent = require('superagent');
-const { mobileUserAgent } = require('../../../config');
+const cheerio = require('cheerio');
+const { userAgent } = require('../../../config');
 const { URL } = require('url');
 
 async function mobileHuanqiuUrlTrimmer(url) {
@@ -16,18 +17,14 @@ async function mobileHuanqiuUrlTrimmer(url) {
     pathname[1].replace('==', '');
     setPathname(url, pathname);
   }
-  const response = await agent.get(url.toString()).set('user-agent', mobileUserAgent);
+  const response = await agent.get(url.toString()).set('user-agent', userAgent);
   const text = response.text;
-  const regex = /<!--http:\/\/[a-z]*.huanqiu.com\/article\//g;
-  const exec = regex.exec(text);
-  if (exec !== null) {
-    const str = [];
-    let index = exec.index + '<!--'.length;
-    while (text[index] && !(text[index] === '-' && text[index + 1] === '-')) {
-      str.push(text[index]);
-      index++;
-    }
-    return huanqiuUrlTrimmer.trimmer(new URL(str.join('')));
+  const $ = cheerio.load(text);
+  const a = $('a', '.fromSummary');
+
+  // const exec = regex.exec(text);
+  if (a.length > 0) {
+    return huanqiuUrlTrimmer.trimmer(new URL(a[0].attribs.href));
   }
 
   return url;
