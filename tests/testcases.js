@@ -46,4 +46,11 @@ module.exports = {
   'http://www.caixinglobal.com/2018-12-08/china-export-growth-slows-to-8-month-low-in-november-on-trade-war-impact-101357262.html?cxw=IOS&Sfrom=more': 'https://www.caixinglobal.com/2018-12-08/china-export-growth-slows-to-8-month-low-in-november-on-trade-war-impact-101357262.html',
   'http://big5.ftchinese.com/story/001080585/en?ccode=LanguageSwitch': 'https://www.ftchinese.com/story/001080585',
   'https://lifeweek.com.cn/2018/1129/51384.shtml': 'http://www.lifeweek.com.cn/2018/1129/51384.shtml',
+  'http://news.eastday.com/c/20181209/u1a14440734_K26843.html?p=1': 'https://news.eastday.com/c/20181209/u1a14440734.html',
+  'http://msports.eastday.com/a/181209114221632000000.html?qid=#pushstate': 'https://sports.eastday.com/a/181209114221632000000.html',
+  'https://health.eastday.com/a/181207104848615.html?qid=null&btype=index_jrdftt&needrec=1&subtype=jiankang&rcgid=b6e6b577cab93d14&pgnum=1&idx=1&ishot=1&recommendtype=-1&suptop=0&domain=DFYS': 'https://health.eastday.com/a/181207104848615.html',
+  'http://money.eastday.com/2018/12/29774.html?p=1': 'https://money.eastday.com/2018/12/29774.html',
+  'http://shfda.eastday.com/eastday/n952776/n953193/u1ai12051777.html?p=1': 'https://shfda.eastday.com/eastday/n952776/n953193/u1ai12051777.html',
+  'http://jiazhuang.eastday.com/eastday/jiazhuang/zxzx/u1a8194245.html?p=1': 'https://jiazhuang.eastday.com/eastday/jiazhuang/zxzx/u1a8194245.html',
+  'https://usa.eastday.com/know/edu/u1ai27065_K14.html?p=1': 'http://usa.eastday.com/know/edu/u1ai27065_K14.html',
 };
