@@ -3,7 +3,7 @@ const { URL } = require('url');
 async function jfdailyTrimmer(url) {
   removeHash(url);
   useHttps(url);
-  return new URL(`https://www.jfdaily.com/news/detail?id=${url.searchParams.get('id')}`)
+  return new URL(`https://www.jfdaily.com/news/detail?id=${url.searchParams.get('id')}`);
 }
 module.exports = {
   trimmer: jfdailyTrimmer,
