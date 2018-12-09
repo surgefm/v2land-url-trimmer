@@ -48,4 +48,5 @@ module.exports = {
   'https://lifeweek.com.cn/2018/1129/51384.shtml': 'http://www.lifeweek.com.cn/2018/1129/51384.shtml',
   'http://beltandroad.zaobao.com/beltandroad/news/story20181208-914207?p=1': 'https://beltandroad.zaobao.com/beltandroad/news/story20181208-914207',
   'http://www.zaobao.com/zentertainment/celebs/story20181209-914450?p=1': 'https://www.zaobao.com/zentertainment/celebs/story20181209-914450',
+  'https://www.zaobao.com.sg/realtime/singapore/story20181209-914487': 'https://www.zaobao.com.sg/realtime/singapore/story20181209-914487',
 };

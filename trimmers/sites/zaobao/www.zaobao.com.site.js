@@ -10,5 +10,6 @@ module.exports = {
   domains: [
     'www.zaobao.com',
     'beltandroad.zaobao.com',
+    'www.zaobao.com.sg',
   ],
 };
