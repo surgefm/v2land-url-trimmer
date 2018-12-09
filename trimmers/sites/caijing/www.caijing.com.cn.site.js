@@ -29,5 +29,11 @@ module.exports = {
     'magazine.caijing.com.cn',
     'english.caijing.com.cn',
     'm.caijing.com.cn',
+    'rvfchina.caijing.com.cn',
+    'conference.caijing.com.cn',
+    'tod.caijing.com.cn',
+    'yuanchuang.caijing.com.cn',
+    'inno.caijing.com.cn',
+    'onchain.caijing.com.cn',
   ],
 };
