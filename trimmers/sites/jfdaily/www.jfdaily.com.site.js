@@ -7,5 +7,8 @@ async function jfdailyTrimmer(url) {
 }
 module.exports = {
   trimmer: jfdailyTrimmer,
-  domains: ['www.jfdaily.com'],
+  domains: [
+    'www.jfdaily.com',
+    'web.shobserver.com',
+  ],
 };

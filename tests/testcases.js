@@ -47,6 +47,7 @@ module.exports = {
   'http://big5.ftchinese.com/story/001080585/en?ccode=LanguageSwitch': 'https://www.ftchinese.com/story/001080585',
   'https://lifeweek.com.cn/2018/1129/51384.shtml': 'http://www.lifeweek.com.cn/2018/1129/51384.shtml',
   'https://www.jfdaily.com/wx/detail.do?id=117169': 'https://www.jfdaily.com/news/detail?id=117169',
+  'https://web.shobserver.com/wx/detail.do?id=120923&time=1544367743757': 'https://www.jfdaily.com/news/detail?id=120923',
   'https://tv.cctv.com/v/v1/VIDERVtetaLadtQs1VVIfq6t181204.html#': 'http://tv.cctv.com/2018/12/04/VIDERVtetaLadtQs1VVIfq6t181204.shtml',
   'https://tv.cctv.com/2018/12/04/VIDERVtetaLadtQs1VVIfq6t181204.shtml': 'http://tv.cctv.com/2018/12/04/VIDERVtetaLadtQs1VVIfq6t181204.shtml',
   'https://news.cctv.com/m/la/index.shtml?id=ARTIq0ng2tTHsVkFl9kZS0Bf181209': 'http://news.cctv.com/2018/12/09/ARTIq0ng2tTHsVkFl9kZS0Bf181209.shtml',
