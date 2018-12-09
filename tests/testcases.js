@@ -30,4 +30,5 @@ module.exports = {
   'http://m.cyol.com/content/2018-12/06/content_17843191.htm': 'http://news.cyol.com/content/2018-12/06/content_17843191.htm',
   'https://mzqb.cyol.com/html/2018-12/05/content_259457.htm?': 'http://mzqb.cyol.com/html/2018-12/05/content_259457.htm',
   'http://big5.ftchinese.com/story/001080585/en?ccode=LanguageSwitch': 'https://www.ftchinese.com/story/001080585',
+  'https://lifeweek.com.cn/2018/1129/51384.shtml': 'http://www.lifeweek.com.cn/2018/1129/51384.shtml',
 };
