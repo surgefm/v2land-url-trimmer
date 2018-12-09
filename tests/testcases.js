@@ -46,6 +46,12 @@ module.exports = {
   'http://www.caixinglobal.com/2018-12-08/china-export-growth-slows-to-8-month-low-in-november-on-trade-war-impact-101357262.html?cxw=IOS&Sfrom=more': 'https://www.caixinglobal.com/2018-12-08/china-export-growth-slows-to-8-month-low-in-november-on-trade-war-impact-101357262.html',
   'http://big5.ftchinese.com/story/001080585/en?ccode=LanguageSwitch': 'https://www.ftchinese.com/story/001080585',
   'https://lifeweek.com.cn/2018/1129/51384.shtml': 'http://www.lifeweek.com.cn/2018/1129/51384.shtml',
+  'https://tv.cctv.com/v/v1/VIDERVtetaLadtQs1VVIfq6t181204.html#': 'http://tv.cctv.com/2018/12/04/VIDERVtetaLadtQs1VVIfq6t181204.shtml',
+  'https://tv.cctv.com/2018/12/04/VIDERVtetaLadtQs1VVIfq6t181204.shtml': 'http://tv.cctv.com/2018/12/04/VIDERVtetaLadtQs1VVIfq6t181204.shtml',
+  'https://news.cctv.com/m/la/index.shtml?id=ARTIq0ng2tTHsVkFl9kZS0Bf181209': 'http://news.cctv.com/2018/12/09/ARTIq0ng2tTHsVkFl9kZS0Bf181209.shtml',
+  'https://news.cctv.com/2018/12/09/ARTIq0ng2tTHsVkFl9kZS0Bf181209.shtml?p=1': 'http://news.cctv.com/2018/12/09/ARTIq0ng2tTHsVkFl9kZS0Bf181209.shtml',
+  'https://jingji.cctv.com/2018/11/28/ARTIGU2CTeNGANbK4SyqUd2c181128.shtml': 'http://jingji.cctv.com/2018/11/28/ARTIGU2CTeNGANbK4SyqUd2c181128.shtml',
+  'https://gongyi.cctv.com/2018/11/02/ARTIpAHXfMsciTP90wsqGWVV181102.shtml': 'http://gongyi.cctv.com/2018/11/02/ARTIpAHXfMsciTP90wsqGWVV181102.shtml',
   'http://www.chinanews.com/auto/2018/12-07/8694782.shtml': 'https://www.chinanews.com/auto/2018/12-07/8694782.shtml',
   'http://www.chinanews.com/wap/detail/zw/auto/2018/12-07/8694782.shtml': 'https://www.chinanews.com/auto/2018/12-07/8694782.shtml',
 };
