@@ -52,4 +52,6 @@ module.exports = {
   'https://news.cctv.com/2018/12/09/ARTIq0ng2tTHsVkFl9kZS0Bf181209.shtml?p=1': 'http://news.cctv.com/2018/12/09/ARTIq0ng2tTHsVkFl9kZS0Bf181209.shtml',
   'https://jingji.cctv.com/2018/11/28/ARTIGU2CTeNGANbK4SyqUd2c181128.shtml': 'http://jingji.cctv.com/2018/11/28/ARTIGU2CTeNGANbK4SyqUd2c181128.shtml',
   'https://gongyi.cctv.com/2018/11/02/ARTIpAHXfMsciTP90wsqGWVV181102.shtml': 'http://gongyi.cctv.com/2018/11/02/ARTIpAHXfMsciTP90wsqGWVV181102.shtml',
+  'http://www.chinanews.com/auto/2018/12-07/8694782.shtml': 'https://www.chinanews.com/auto/2018/12-07/8694782.shtml',
+  'http://www.chinanews.com/wap/detail/zw/auto/2018/12-07/8694782.shtml': 'https://www.chinanews.com/auto/2018/12-07/8694782.shtml',
 };
