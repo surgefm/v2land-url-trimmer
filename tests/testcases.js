@@ -29,4 +29,6 @@ module.exports = {
   'http://news.cyol.com/content/2018-12/04/content_17840472.htm': 'http://news.cyol.com/content/2018-12/04/content_17840472.htm',
   'http://m.cyol.com/content/2018-12/06/content_17843191.htm': 'http://news.cyol.com/content/2018-12/06/content_17843191.htm',
   'https://mzqb.cyol.com/html/2018-12/05/content_259457.htm?': 'http://mzqb.cyol.com/html/2018-12/05/content_259457.htm',
+  'http://international.caixin.com/2018-12-09/101357336.html?cxw=IOS&Sfrom=more': 'http://international.caixin.com/2018-12-09/101357336.html',
+  'http://m.companies.caixin.com/m/2018-12-08/101357271.html': 'http://companies.caixin.com/2018-12-08/101357271.html',
 };
