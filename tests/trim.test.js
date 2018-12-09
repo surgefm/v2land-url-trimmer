@@ -11,6 +11,6 @@ describe('Test URL trimmer', async function() {
       const result = await trimmer.trim(testcase);
       console.log(result.toString());
       expect(result.toString()).toEqual(testcases[testcase]);
-    }).timeout(10000);
+    }).timeout(20000);
   }
 });
