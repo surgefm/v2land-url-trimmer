@@ -9,6 +9,10 @@ async function oeeee3gTrimmer(url) {
     }
   }
 
+  if (!keyValuesObj.ctime || !keyValuesObj.id) {
+    return url;
+  }
+
   const date = new Date(keyValuesObj.ctime * 1000);
 
   const month = ('0' + (date.getUTCMonth() + 1)).slice(-2);
