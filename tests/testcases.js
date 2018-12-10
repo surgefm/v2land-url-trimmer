@@ -48,4 +48,5 @@ module.exports = {
   'https://lifeweek.com.cn/2018/1129/51384.shtml': 'http://www.lifeweek.com.cn/2018/1129/51384.shtml',
   'http://beta.scmp.com/news/china/diplomacy/article/2177091/beijing-blames-canada-huawei-arrest-and-threatens-grave?p=1': 'https://www.scmp.com/news/china/diplomacy/article/2177091/beijing-blames-canada-huawei-arrest-and-threatens-grave',
   'http://www.scmp.com/news/china/diplomacy/article/2177091/beijing-blames-canada-huawei-arrest-and-threatens-grave?p=1': 'https://www.scmp.com/news/china/diplomacy/article/2177091/beijing-blames-canada-huawei-arrest-and-threatens-grave',
+  'https://sc.mp/3fs6z': 'https://www.scmp.com/news/china/diplomacy/article/2177009/china-duterte-and-philippine-dam-set-become-reality-despite',
 };
