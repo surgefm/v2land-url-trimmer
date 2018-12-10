@@ -48,4 +48,5 @@ module.exports = {
   'https://lifeweek.com.cn/2018/1129/51384.shtml': 'http://www.lifeweek.com.cn/2018/1129/51384.shtml',
   'https://www.guangming.com.my/node/468464/%E9%82%A6%E8%8E%AB%E9%81%94%E5%86%8D%E6%B6%89%E8%B3%AD%E8%A2%AB%E6%8B%8D%EF%BC%9F-%E9%80%99%E5%9B%9E%E5%9C%A8%E6%9F%AC%E5%9F%94%E5%AF%A8%E9%87%91%E9%82%8A': 'https://www.guangming.com.my/node/468464',
   'http://www.guangming.com.my/node/468464/%E9%82%A6%E8%8E%AB%E9%81%94%E5%86%8D%E6%B6%89%E8%B3%AD%E8%A2%AB%E6%8B%8D%EF%BC%9F-%E9%80%99%E5%9B%9E%E5%9C%A8%E6%9F%AC%E5%9F%94%E5%AF%A8%E9%87%91%E9%82%8A': 'https://www.guangming.com.my/node/468464',
+  'https://museum.gmw.cn/2018-12/07/content_32123797.htm?p=1': 'http://museum.gmw.cn/2018-12/07/content_32123797.htm',
 };
