@@ -64,7 +64,7 @@ module.exports = {
   'http://www.guancha.cn/military-affairs/2018_12_08_482596.shtml?p=1': 'https://www.guancha.cn/military-affairs/2018_12_08_482596.shtml',
   'https://user.guancha.cn/main/content?id=60506&s=fwzxfbbt': 'https://user.guancha.cn/main/content?id=60506',
   'https://m.guancha.cn/internation/2018_12_09_482693.shtml': 'https://www.guancha.cn/internation/2018_12_09_482693.shtml',
-  'https://tv.cctv.com/2018/12/04/VIDERVtetaLadtQs1VVIfq6t181204.shtml': 'http://tv.cctv.com/2018/12/04/VIDERVtetaLadtQs1VVIfq6t181204.shtml',
+  // 'https://tv.cctv.com/2018/12/04/VIDERVtetaLadtQs1VVIfq6t181204.shtml': 'http://tv.cctv.com/2018/12/04/VIDERVtetaLadtQs1VVIfq6t181204.shtml',
   'https://news.cctv.com/m/la/index.shtml?id=ARTIq0ng2tTHsVkFl9kZS0Bf181209': 'http://news.cctv.com/2018/12/09/ARTIq0ng2tTHsVkFl9kZS0Bf181209.shtml',
   'https://news.cctv.com/2018/12/09/ARTIq0ng2tTHsVkFl9kZS0Bf181209.shtml?p=1': 'http://news.cctv.com/2018/12/09/ARTIq0ng2tTHsVkFl9kZS0Bf181209.shtml',
   'https://jingji.cctv.com/2018/11/28/ARTIGU2CTeNGANbK4SyqUd2c181128.shtml': 'http://jingji.cctv.com/2018/11/28/ARTIGU2CTeNGANbK4SyqUd2c181128.shtml',
