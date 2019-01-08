@@ -10,7 +10,7 @@ async function urlTrimmer(inputUrl) {
     } else if (url.hostname.slice(0, 4) === 'www.' &&
       siteTrimmers[url.hostname.slice(4)]) {
       url = await siteTrimmers[url.hostname.slice(4)](url);
-    } else {
+    } else if (process.env.NODE_ENV !== 'production') {
       url = await autoTrimmer(url);
     }
   } catch (err) {
