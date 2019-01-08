@@ -24,7 +24,7 @@ async function mobileNeteaseUrlTrimmer(url) {
   const boardId = $('html').attr('data-boardid');
 
   const time = $('span')[0].children[0].data.split(' ');
-  const date = time[0].split('-').join('');
+  const date = time[0].split('-').slice(-2).join('');
   const hour = time[1].split(':')[0];
 
   if (Object.keys(board).includes(boardId)) {
