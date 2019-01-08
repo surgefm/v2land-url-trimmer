@@ -13,6 +13,7 @@ async function findRule(url, rules) {
   let changed = false;
   let ruleQueryPreserveList = [];
   let ruleQueryRemoveList = [];
+  const originalUrl = new URL(url);
 
   if (!rules) {
     changed = true;
@@ -84,7 +85,9 @@ async function findRule(url, rules) {
   }
 
   if (changed) {
-    await saveRule(lastUrl, ruleMethodList, ruleQueryRemoveList, ruleQueryPreserveList);
+    const rules = await saveRule(lastUrl, ruleMethodList, ruleQueryRemoveList, ruleQueryPreserveList);
+    await applyRules(originalUrl, rules);
+    return originalUrl;
   }
 
   return lastUrl;

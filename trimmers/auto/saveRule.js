@@ -15,6 +15,7 @@ async function saveRule(url, ruleMethodList, ruleQueryRemoveList, ruleQueryPrese
   }
 
   await fs.writeFile(path.resolve(__dirname, 'rules', getFilename(url)), str);
+  return str;
 }
 
 module.exports = saveRule;
