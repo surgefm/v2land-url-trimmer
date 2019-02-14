@@ -24,6 +24,7 @@ module.exports = {
   'http://3g.oeeee.com/m.php?s=/m/mshow/ctime/1543736898/id/720612/type/html/mtype/1': 'http://www.oeeee.com/html/201812/02/720612.html',
   'https://www.nfpeople.com/article/8826#header?q=1': 'http://www.nfpeople.com/article/8826',
   'http://mobile.twitter.com/IncredibLink/status/933911741754494976?from=singlemessage&isappinstalled=0': 'https://twitter.com/IncredibLink/status/933911741754494976',
+  'https://cdn.bjnews.com.cn/h5/index.html#/detail/1/154404875014813': 'https://cdn.bjnews.com.cn/h5/index.html#/detail/1/154404875014813',
   'http://m.huanqiu.com/r/MV8wXzEzNzMwMTM5XzEyNThfMTU0NDAzNzMwMA==': 'http://world.huanqiu.com/article/2018-12/13730139.html',
   'https://world.huanqiu.com/article/2018-12/13730139.html': 'http://world.huanqiu.com/article/2018-12/13730139.html',
   'https://m.thepaper.cn/newsDetail_forward_2704657': 'https://www.thepaper.cn/newsDetail_forward_2704657',
